@@ -1,0 +1,16 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ <?php foreach($resultdate as $date): ?>
+            <article>
+                <h3><?= htmlspecialchars($date['IDWEBdate']) ?>"</h3>
+                <h3><?= htmlspecialchars($date['cat_title']) ?></h3>
+                <h3><?= htmlspecialchars($date['date_debut']) ?></h3>
+                 <h3><?= htmlspecialchars($date['date_fin']) ?></h3>
+                <h3><?= htmlspecialchars($date['time_start']) ?></h3>
+                <h3><?= htmlspecialchars($date['time_end']) ?></h3>
+            </article>
+        <?php endforeach; ?>
