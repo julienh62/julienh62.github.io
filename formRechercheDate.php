@@ -92,5 +92,5 @@ foreach ($stmt as $row) {
 
  var_dump($resultdate);
     
-  include('views/'. LAYOUT . '.phtml');
+  include( LAYOUT . '.phtml');
 ?>
