@@ -1,8 +1,8 @@
 <?php
 
 
-require('lib/bdd.php');
-require('config/config.php');
+require('bdd.php');
+require('config.php');
         
  const LAYOUT = "afficheRecherche";       
 
