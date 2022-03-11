@@ -7,5 +7,5 @@ require('config.php');
  const LAYOUT = "afficheRecherche";       
 
     
-include('views/'. LAYOUT . '.phtml');  
+include( LAYOUT . '.phtml');  
     
